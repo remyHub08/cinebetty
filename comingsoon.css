@@ -1,0 +1,46 @@
+.coming-soon {
+    padding: 40px 20px;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .coming-soon h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  .coming-soon .movie-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .coming-soon .movie-card {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .coming-soon .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .coming-soon .movie-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .coming-soon .movie-card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .coming-soon .movie-card p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
